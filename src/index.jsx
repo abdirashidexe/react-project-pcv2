@@ -1,11 +1,10 @@
 import { createRoot } from "react-dom/client";
-import { Fragment } from "react";
 
 const root = createRoot(document.getElementById("root"));
 
 function Page() {
   return (
-    <Fragment>
+    <>
         <header>
           <img src="src/assets/react.svg" alt="React logo"/>
         </header>
@@ -20,7 +19,7 @@ function Page() {
         <footer>
           <small>© 2025 Ahmed development. All rights reserved.</small>
         </footer>
-    </Fragment>
+    </>
   )
 }
 
